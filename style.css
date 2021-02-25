@@ -1,0 +1,75 @@
+* {
+  background-color: #0d0d0d;
+}
+
+.Title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #25f18b;
+  font-size: 36px;
+  margin-left: 370px;
+  margin-top: 72px;
+}
+
+.Input {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+
+.form input[placeholder="Add a task"] {
+  border-color: #25f18b;
+  border-width: 2px;
+  margin-left: 271px;
+  width: 609px;
+  height: 64px;
+  font-size: 24px;
+  font-weight: 200;
+  color: #25f18b;
+  padding-left: 10px;
+}
+
+.AddButton {
+  border-color: #25f18b;
+  border-width: 2px;
+  width: 201px;
+  color: #25f18b;
+  font-weight: 600;
+  font-size: 56px;
+  cursor: pointer;
+}
+
+#container {
+  margin-top: 96px;
+}
+
+.box {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 288px;
+  margin-top: 20px;
+  width: 780px;
+  border: solid #25f18b;
+}
+
+.to-dos p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #25f18b;
+  width: 694px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.removeButton {
+  background-color: #25f18b;
+  color: #0d0d0d;
+  border: none;
+  width: 108px;
+  height: 64px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-top: 8px;
+}
