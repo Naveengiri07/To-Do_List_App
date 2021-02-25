@@ -33,8 +33,3 @@ function add(){
     input.value="";
     count++;
 }
-
-// function remove(event){
-    //document.getElementById(`box${count}`).remove();
-  //  console.log(event.target.parentNode.id);
-//}
