@@ -38,6 +38,12 @@
   cursor: pointer;
 }
 
+.AddButton:hover {
+  border-color: #25f18b;
+  background-color: #25f18b;
+  color: #0d0d0d;
+}
+
 #container {
   margin-top: 96px;
 }
