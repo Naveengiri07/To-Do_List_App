@@ -4,6 +4,10 @@ let toDoContainer = document.getElementById('container');
 var count = 0;
 
 function add(){
+   if(input.value==""){
+       alert('Oops!! You Forgot to Enter the Task');
+   }
+   else{
     var mainBox = document.createElement("div");
     mainBox.setAttribute('id',`box${count}`);
     mainBox.classList.add('box');
@@ -32,4 +36,5 @@ function add(){
 
     input.value="";
     count++;
+   } 
 }
